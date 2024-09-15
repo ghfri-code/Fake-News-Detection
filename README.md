@@ -1,5 +1,5 @@
 # Fake News Detection
-![logo](fnd.jpg)
+![logo](images/fnd.jpg)
 
 
 ## Introduction
@@ -17,27 +17,8 @@ it containing two datasets, Politifact  and Gossipcop , that are collected from 
 We just use 'Gossipcop news' with a total of 4190 "fake" tweets and 15089 "real" articles.
 
 
-## Dependencies
-Before running the code, make sure you have the following libraries and packages installed:
-
-Python 3
-Scikit-learn
-Pandas
-Numpy
-Seaborn
-Matplotlib
-Regular Expression
-You can install these dependencies using pip:
-
-pip install pandas
-pip install numpy
-pip install matplotlib
-pip install sklearn
-pip install seaborn 
-pip install re 
-
 ## Approach
-![flow chart](flowchart.png)
+![flow chart](images/flowchart.png)
 
 ## Results
 We evaluated each classifier's performance using metrics such as accuracy, precision, recall, and F1 score. The results are documented in the project files.
