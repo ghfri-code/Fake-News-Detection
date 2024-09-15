@@ -10,15 +10,16 @@ Fake news is a critical issue in today's digital age, where information spreads 
 
 
 ## Dataset
-We have used [FakeNewsNet dataset](https://github.com/KaiDMML/FakeNewsNet) containing news articles along with their corresponding labels (1 or 0). The dataset is divided into two classes:
-(1): True or Genuine news articles
-(0): Fake or fabricated news articles
-it containing two datasets, Politifact  and Gossipcop , that are collected from two news fact-checking websites. 
+We have used [FakeNewsNet dataset](https://github.com/KaiDMML/FakeNewsNet) containing news articles along with their corresponding labels (1 or 0). The dataset is divided into two classes:                                                                                                
+(1): True or Genuine news articles                                                                                                             
+(0): Fake or fabricated news articles                                                                                                          
+It containing two datasets, Politifact  and Gossipcop , that are collected from two news fact-checking websites. 
 We just use 'Gossipcop news' with a total of 4190 "fake" tweets and 15089 "real" articles.
 
 
 ## Approach
 ![flow chart](images/flowchart.png)
+
 
 ## Results
 We evaluated each classifier's performance using metrics such as accuracy, precision, recall, and F1 score. The results are documented in the project files.
