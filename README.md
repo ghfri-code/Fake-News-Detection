@@ -19,7 +19,7 @@ It is containing two datasets, Politifact  and Gossipcop , that are collected fr
 ## Approach
 ![flow chart](images/flowchart.png)
 
-it is shown in above graph that for this goal we use two kind of features and implement the models on them seperately, 1: tf-idf 2: content features(extract from text)
+It is shown in the above graph that for this goal we use two kinds of features and implement the models on them separately, 1: tf-idf 2: content features(extracted from text)
 
 ## Results
 The performance of each classifier was evaluated using metrics such as accuracy, precision, recall, and F1 score. As you see the dataset is imbalanced and it also affects the results.
